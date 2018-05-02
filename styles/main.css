@@ -1,0 +1,36 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(247, 244, 239);
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 300;  
+    font-size: 12px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* .container .box {
+
+}
+*/
+
+.header {
+    height: 500px;   
+    background-image: url(../images/cafe3.jpg);
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+}
