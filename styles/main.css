@@ -1,6 +1,7 @@
 body {
     font-family: 'Inconsolata', sans-serif;
     background-color: rgb(247, 244, 239);
+    margin: 0;
 }
 
 .container {
@@ -59,8 +60,25 @@ div#right {
     display: inline-block;
 }
 
-div#about {
-    width: 50%;
+div #about {
+    width: 40%;
+    margin-left: 30%;
     font-size: 18px;
     font-weight: 300;
+    text-align: justify;
+}
+
+.opening {
+    width: 40%;
+    margin-left: 30%;    
+}
+
+.opening img {
+    max-width: 100%;
+}
+
+.menu {
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
 }
